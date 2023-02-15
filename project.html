@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <title>project</title>
+
+    <style>
+      .active
+      {
+        font-family: 'Poppins', sans-serif;
+        font-weight:bold;
+      }
+            /* background image */
+            body
+       {
+        background-image: url("images/hpbi.jpg");
+        background-repeat: no-repeat;
+         background-size: cover;
+      }
+      /* media query to block the background image on small  */
+      @media (max-width: 767px)
+      {
+        body
+        {
+          background-image: url("images/sm.jpg");
+        }
+      }
+      /* media query to block the background image on medium */
+      @media (min-width: 768px) and (max-width: 1400px) {
+      body 
+      {
+      background-image: url("images/new-md.jpg");
+     }
+      }
+
+      dl,dt,dd
+      {
+        display: flex;justify-content: center;flex-direction: column;align-items: center;
+      }
+      
+    </style>
+</head>
+<body>
+  <!-- nav-bar lg and md block  -->
+  <div class="d-none d-md-block">
+    <div class="collapse" id="navbarToggleExternalContent" >
+        <div class="bg-dark">
+          <span class="text-muted">
+
+            <nav class="navbar navbar-expand-md bg-dark ">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-0">
+                      <li>
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="skills.html">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white active" href="project.html">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="contactme.html">Contact-me</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+          </span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+
+
+      <br>
+      <br>
+      <dl>
+        <dt>
+          Online Shopping Products and Stocks management.
+        <dd>
+          This will help an online business to better manage its stocks. I have used constraints wherever needed and also used joints to have a better display of information.
+        </dd>
+        </dt>
+       </dl>
+       <br>
+       <dl>
+        <dt>
+          Affiliate Marketing (Promote+buy+admin_login)
+          <br>
+          <a href="https://github.com/sunny-00/The-Hype" target="_blank">Github-link</a>
+        <dd>
+          My objective for the project is to help a business promote its products by using affiliate marketing. I got to learn a lot of new concepts like Random number generator and how to implement CRUD operations in
+          <dd>different ways.</dd>
+        </dd>
+        </dt>
+       </dl>
+       <br>
+       <dl>
+        <dt>
+          Jewlery Shopping
+        <dd>
+          In this project I have used JSP, Servlet, Html, CSS and MySql Database to store the data. This project has helped me to better integrate Servlets to database and how to display data from database to JSP.
+        </dd>
+        </dt>
+       </dl>
+       <br>
+       <dl>
+        <dt>
+          Car parking (SpotSaver)
+          <br>
+          <a href="https://github.com/sunny-00/Parking- car-SpotSaver-">Github-link</a>
+        <dd>
+          An application to find a perfect spot for you. you can also add your own spot. An admin can do CRUD operations as well by loggin in.
+        </dd>
+        </dt>
+       </dl>
+       <br>
+       <dl>
+        <dt>
+          This Resume
+        </dt>
+       </dl>
+
+
+
+
+  </div>
+
+    <!-- nav bar for sm  -->
+    <div class="d-sm-block d-md-none">
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="project.html">Project</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li>
+                  <a class="nav-link text-white active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="contactme.html">Contact-me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+         </nav>
+
+         <br>
+         <br>
+         <br>
+         <div class="container" >
+         <dl>
+           <dt>
+             Online Shopping Products and Stocks management.
+           <dd>
+             This will help an online business to better manage its stocks. I have used constraints wherever needed and also used joints to have a better display of information.
+           </dd>
+           </dt>
+          </dl>
+          <br>
+          <dl>
+           <dt>
+             Affiliate Marketing (Promote+buy+admin_login)
+             <br>
+             <a href="https://github.com/sunny-00/The-Hype" target="_blank">Github-link</a>
+           <dd>
+             My objective for the project is to help a business promote its products by using affiliate marketing. I got to learn a lot of new concepts like Random number generator and how to implement CRUD operations in different ways.
+           </dd>
+           </dt>
+          </dl>
+          <br>
+          <dl>
+           <dt>
+             Jewlery Shopping
+           <dd>
+             In this project I have used JSP, Servlet, Html, CSS and MySql Database to store the data. This project has helped me to better integrate Servlets to database and how to display data from database to JSP.
+           </dd>
+           </dt>
+          </dl>
+          <br>
+          <dl>
+           <dt>
+             Car parking (SpotSaver)
+             <br>
+             <a href="https://github.com/sunny-00/Parking- car-SpotSaver-">Github-link</a>
+           <dd>
+             An application to find a perfect spot for you. you can also add your own spot. An admin can do CRUD operations as well by loggin in.
+           </dd>
+           </dt>
+          </dl>
+          <br>
+          <dl>
+           <dt>
+             This Resume
+           </dt>
+          </dl>
+        </div>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
